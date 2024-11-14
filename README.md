@@ -37,8 +37,9 @@ The **Plague Ai Game** is an web-based simulation inspired by Plague Inc., where
 **Clone the repository**:
 
 ```bash
-git clone https://github.com/yourusername/viral-network-game.git
-cd viral-network-game
+git clone https://github.com/plague-ai/plague.git
+cd plague
+npm install
 npm run dev
 ```
 
