@@ -130,7 +130,8 @@ const WorldMap = () => {
         </div>
       )}
       <div className={styles.newsWrap}>
-        {popup && !loading && <marquee className="font-bold">{headlines}</marquee>}
+        <img src='/news.jpg'/>
+        {popup && !loading && <marquee className={`font-bold ${styles.marquee}`}>{headlines}</marquee>}
       </div>
       {
         !loading
@@ -140,6 +141,9 @@ const WorldMap = () => {
             <div className='flex gap-5'>
               <div className='flex items-center font-bold'>
                 <div className='text-xs my-1'>TOTAL INFECTED: {informedRef}</div>
+              </div>
+              <div className='flex items-center font-bold'>
+                <div className='text-xs my-1'>POPULATION: {population.current}</div>
               </div>
             </div>
           </div>

@@ -24,14 +24,29 @@
 .newsWrap {
   position: absolute;
   top: 2em;
-  left: 2em;
+  left: 1em;
   display: flex;
   align-items: center;
-  background-color: #000000a9;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   width: 90%;
   font-size: 0.9em !important;
+}
+
+.newsWrap img {
+  position: relative;
+  z-index: 1;
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50%;
+}
+
+.marquee {
+  background-color: #000000a9;
+  padding: 1em;
+  margin-left: -2em;
+  border-radius: 10px;
+  position: relative;
 }
 
 .newsWrap img {
@@ -86,5 +101,10 @@
     width: 5em;
     height: 5em;
     margin: auto;
+  }
+
+  .newsWrap img {
+    width: 70px !important;
+    height: 70px !important;
   }
 }
