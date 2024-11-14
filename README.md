@@ -43,7 +43,7 @@ npm install
 npm run dev
 ```
 
-The app will be available at http://plagueai.com.
+The app will be available at https://plagueai.com.
 
 ### Environmental Variables
 
