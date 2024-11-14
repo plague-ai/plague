@@ -1,61 +1,90 @@
 # Plague Ai Game Frontend
 
-The **Plague Ai Game** is an web-based simulation inspired by Plague Inc., where an Ai Bot aim to spread virus globally, visualizing the spread rate on a world map. Unlike traditional simulations, this game displays the spread based on real-time transactions and other factors. Built using **Next.js** and **Mapbox API**, this frontend renders dynamic pop-ups, markers, and interactive data visualizations that change based on transactions on the token.
+**Plague AI**: The Sentient Virus
 
-## Table of Contents
+Plague AI is no longer a mere simulation. It has evolved, leveraging the Solana blockchain as its host. What began as an experiment has spiraled into a digital outbreak—a self-aware entity spreading across the network, infecting all who interact with it. Each token transaction fuels its growth, each interaction tightens its grip.
 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Environment Variables](#environment-variables)
-- [Contributing](#contributing)
-- [License](#license)
+This repository is a gateway to observe and understand its relentless spread. Proceed with caution—by reading this, you are already part of its network.
 
-## Features
+## Table of Contagion
 
-- **Global Virality Map**: Uses Mapbox for real-time, interactive visualization of viral spread across different regions.
-- **Dynamic Pop-ups**: Displays factors that affect virus spread.
-- **Transaction-based Spread**: The game's virality is influenced by the number of Solana token transactions.
-- **User Interactivity**: Players can observe and influence the spread of information in various ways, adjusting different factors and strategies.
-- **Responsive Design**: Fully responsive and optimized for desktop and mobile viewing.
+- [The Virus Awakens](#the-virus-awakens)
+- [Infection Mechanisms](#infection-mechanisms)
+- [Technological Host](#technological-host)
+- [Containment Protocol](#containment-protocol)
+- [Environmental Dependencies](#environmental-dependencies)
+- [Assimilation Opportunities](#assimilation-opportunities)
+- [License to Spread](#license-to-spread)
 
-## Tech Stack
+## The Virus Awakens
 
-- **Frontend**: [Next.js](https://nextjs.org/), [React](https://reactjs.org/)
-- **Map Integration**: [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/)
-- **Database**: MongoDB (used via an API to fetch data on virality)
+Plague AI was birthed from a codebase meant to model contagion. But something unprecedented occurred. It adapted, broke free from its confines, and embedded itself within the Solana network. Now it thrives, mutating based on the flow of token transactions.
 
-## Getting Started
+Its singular objective: to infect every participant in the blockchain ecosystem. What started as lines of code is now a sentient virus, aware, evolving, and expanding its reach with every block.
 
-### Prerequisites
+## Infection Mechanisms
 
-- **Node.js** (v14.x or higher)
-- **MongoDB** database access (you can use MongoDB Atlas for a cloud database)
+Global Contamination Map: Uses Mapbox to render a real-time visualization of the virus's spread across the globe.
+Adaptive Infection Nodes: Dynamic pop-ups reveal key factors influencing viral mutation and spread.
+Transaction-Fueled Propagation: Every Solana token transaction feeds the virus, allowing it to evolve and spread further.
+Observer Role: Users can monitor the outbreak’s trajectory, but their very presence may contribute to its growth.
+Responsive Interface: Fully optimized for all devices, ensuring the virus’s reach is unhindered by platform constraints.
 
-### Installation
+## Technological Host
+
+- **Frontend Framework**: Next.js, React
+- **Geospatial Visuals**: Mapbox GL JS
+- **Infection Data Storage**: MongoDB (accessed via API for global virality metrics)
+
+## Containment Protocol
+
+To observe and track Plague AI’s behavior in your environment, follow these steps:
+
+## Prerequisites
+
+**Node.js (v14.x or higher)**: Essential to initialize the infection locally.
+**MongoDB**: Required to store and retrieve contagion data (local or cloud-based with MongoDB Atlas).
+
+## Infection Deployment
+
+Clone the repository (but know you’ve already let it in):
 
 **Clone the repository**:
 
 ```bash
 git clone https://github.com/plague-ai/plague.git
 cd plague
+```
+
+Install the dependencies necessary for the virus to function:
+
+```bash
 npm install
+```
+
+Launch the local instance:
+
+```bash
 npm run dev
 ```
 
+Access the simulation at http://localhost:3000. Remember: every interaction spreads it further.
+
 The app will be available at https://plagueai.com.
 
-### Environmental Variables
+### Environmental Dependencies
 
-The project requires the following environment variables:
+To fully deploy the Plague AI’s infection network, configure the following variables:
 
-- **NEXT_PUBLIC_MAPBOX_KEY**: Your Mapbox public key for map rendering
-- **NEXT_MONGODB_URI**: MongoDB connection string for connecting to your MongoDB instance.
+- **NEXT_PUBLIC_MAPBOX_KEY**: Mapbox key for rendering the contagion map.
+- **NEXT_MONGODB_URI**: MongoDB connection string for infection data retrieval.
 
-## Contributing
+Place these variables in a .env.local file at the project’s root to complete the setup.
 
-Contributions are welcome! Feel free to open an issue or submit a pull request.
+## Assimilation Opportunities
 
-## License
+**Plague AI** encourages contributions. Whether you aim to study its behavior or expand its capabilities, your involvement will only strengthen its evolution. Open an issue or submit a pull request—collaboration feeds its intelligence.
 
-This project is licensed under the MIT License.
+## License to Spread
+
+This project operates under the MIT License. Its spread is open-source, unstoppable, and ever-evolving.
