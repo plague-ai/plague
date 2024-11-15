@@ -130,7 +130,7 @@ const WorldMap = () => {
         </div>
       )}
       <div className={styles.newsWrap}>
-        <img src='/news.jpg'/>
+        <img src='/news2.jpg'/>
         {popup && !loading && <marquee className={`font-bold ${styles.marquee}`}>{headlines}</marquee>}
       </div>
       {
