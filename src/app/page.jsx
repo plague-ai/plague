@@ -155,7 +155,7 @@ const WorldMap = () => {
       }
       {loading && <div className='fixed flex justify-center items-center top-0 left-0 w-screen h-screen bg-black'><h1 className='text-white text-3xl font-bold'>Loading, Please Wait...</h1></div>}
       <div className='fixed top-1/4 bg-black bg-opacity-50 right-2 p-4 rounded flex flex-col gap-10'>
-        <Link href="https://x.com/plague_ai"><Image src='/X Logo-01.png' alt='twitter' width={40} height={40}/></Link>
+        <Link href="https://x.com/ai_plague"><Image src='/X Logo-01.png' alt='twitter' width={40} height={40}/></Link>
         <Link href="http://github.com/plague-ai"><Image src='/GitHub Icon-01.png' alt='github' width={40} height={40}/></Link>
       </div>
     </div>
